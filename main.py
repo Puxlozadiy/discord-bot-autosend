@@ -3,6 +3,7 @@ import discord
 from discord.ext import commands, tasks
 import sqlite3
 
+#хуй
 bot = commands.Bot("!")
 conn = sqlite3.connect('raptor.db')
 c = conn.cursor()

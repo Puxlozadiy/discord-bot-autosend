@@ -7,7 +7,7 @@ import sqlite3
 bot = commands.Bot("!")
 conn = sqlite3.connect('raptor.db')
 c = conn.cursor()
-target_channel_id = 848317285655511061
+target_channel_id = 668563725980008468
 #c.execute("""CREATE TABLE raptors(num integer, id integer, bool integer)""")
 c.execute("INSERT INTO raptors VALUES (1, 1, 0)")
 conn.commit()
